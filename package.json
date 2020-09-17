@@ -1,0 +1,20 @@
+{
+  "name": "ic-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "conduct": "import-conductor -s projects/**/*.ts -p @myLib -p @app-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^10.1.2",
+    "@angular/core": "^10.1.2",
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "import-conductor": "^2.0.3",
+    "typescript": "^4.0.2"
+  }
+}
